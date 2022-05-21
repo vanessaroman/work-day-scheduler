@@ -126,6 +126,7 @@ $("#4pm").text(fourPm + " PM");
 var fivePm = moment().format("5:00");
 $("#5pm").text(fivePm + " PM");
 
-//Local Storage
+//Time color coded
+
 
 
