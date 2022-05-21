@@ -1,5 +1,8 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -13,12 +16,56 @@ textarea{
   padding: 10px;
 }
 
+input{
+  height: 50px;
+  width: 100%;
+  display: flexbox;
+  background-color: #E9FAE3;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+input:hover{
+  background-color: #ffa3af;
+  border-style: none;
+}
+
+button{
+  background-color: transparent;
+  border-style: none;
+  margin-top: -20px;
+}
+
+button:hover{
+  transform: scale(2.0);
+}
+
+.col-8 {
+  border-radius: 15px;
+  background-color: #E9FAE3;
+  
+}
+
+.col {
+  border-radius: 15px;
+  background-color: #ffd470;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+#containerStyle{
+  border-style: dashed;
+  background-color: lavenderblush;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: #ffa3af ;
   color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  border-radius: 15px;
+  border-bottom: 10px solid #769fb6;
 }
 
 .description{
